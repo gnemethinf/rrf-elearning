@@ -1,6 +1,6 @@
 <!--
 author:    Németh Gábor
-languange: hu-hu
+languange: hu
 narrator:  Hungarian Female
 version:   1.0
 email:     gnemeth@inf.u-szeged.hu
