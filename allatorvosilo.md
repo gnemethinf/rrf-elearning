@@ -32,7 +32,7 @@ Ez a bekezdés is animált, de az előző ott maradt.
 
 ```cpp 
 #include <iostream>
-unsing namespace std;
+using namespace std;
 
 int main() {
     cout << "LiaScript-et használok!" << endl;
