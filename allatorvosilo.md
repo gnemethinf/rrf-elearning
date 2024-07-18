@@ -1,10 +1,11 @@
 <!--
 author:    Németh Gábor
-languange: hu
+languange: hu-hu
 narrator:  Hungarian Female
 version:   1.0
 email:     gnemeth@inf.u-szeged.hu
 import: https://raw.githubusercontent.com/liaTemplates/JSCPP/master/README.md
+import: https://raw.githubusercontent.com/liaTemplates/vtk/master/README.md
 -->
 
 # Az állatorvosi ló
@@ -28,6 +29,17 @@ Ez a bekezdés is animált, de az előző eltűnt, mert az csak a 2-es animáci�
 {{3}}
 Ez a bekezdés is animált, de az előző ott maradt.
 
+## Táblázat
+
+| Tananyag rész | Fejezet | Becsült idő |
+| -------- | :------: | -------: |
+| eXeLearning     |   Egy lecke készítése   |    20:00 perc |
+
+
+## Háromdimenziós modell
+
+@VTK.loadIframe(https://kitware.github.io/vtk-js-datasets/data/vti/head-binary-zlib.vti)
+
 ## Programkód blokkok 
 
 ```cpp 
@@ -35,10 +47,23 @@ Ez a bekezdés is animált, de az előző ott maradt.
 using namespace std;
 
 int main() {
-    cout << "LiaScript-et használok!" << endl;
+    for (int i = 0; i <5; i++) {
+        cout << "LiaScript-et használok!" << endl;
+    }
     return 0;
 }
 ```
 @JSCPP.eval
+
+## HTML kód
+
+<lia-keep>
+<details>
+<summary>Egy rövid összefoglaló</summary>
+<p>
+Ha egy dologról nem akarunk sokat megjeleníteni az oldalon, de valójában kifejtenénk, akkor használhatjuk a <tt>details</tt> címkét. 
+</p>
+</details>
+</lia-keep>
 
 
