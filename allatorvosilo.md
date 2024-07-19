@@ -23,7 +23,7 @@ Narrációs megjegyzést fűzhetünk a tananyaghoz annak érdekében, ha szeretn
 {{1-2}}
 Ez a bekezdés animált.
 
-{{2-3}}
+{{2}}
 Ez a bekezdés is animált, de az előző eltűnt, mert az csak a 2-es animációig látszik.
 
 {{3}}
